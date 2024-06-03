@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(235, 229, 270);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: #3b5998;
+    background-image: linear-gradient( #4e69a2,#3b5998 50%);
+    border-bottom: 1px solid #133783;
+    justify-content: space-around;
+    display: flex;
+    padding: 0.6em 0;
+}   
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+#brand{
+    font-size: 230%;
+    align-self: center;
+    font-weight: bold; 
+}
+
+header form{
+    color: white;
+    margin-left: 35%;
+}
+
+header form ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+}
+
+header form li{
+    align-self: flex-start;
+    padding: 0.2rem 0.5rem;
+    font-size: 80%;
+}
+
+header input{
+    height: 18px;
+    margin-bottom: 0.8em;
+}
+
+header form li input[type="submit"]{
+  background-color: #4267b2;
+  border: 1px solid #08298A;
+  height: 24px; 
+  font-weight: bold;
+  margin-top: 0.4em;
+}
+
+main{
+    display: flex;
+}
+
+.section{
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#left{
+    color: #0e3a5f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.1; 
+    margin-top: 40px;
+    word-spacing: -1px;
+}
