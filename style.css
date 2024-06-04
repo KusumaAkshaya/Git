@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(235, 229, 270);
+    background:linear-gradient( rgb(242, 248, 252), rgb(225, 229, 270));
     width: 100%;
     margin: 0;
     padding: 0;
@@ -76,4 +76,65 @@ main{
     line-height: 1.1; 
     margin-top: 40px;
     word-spacing: -1px;
+    max-width: 400px;
+    margin-left: -100px;
+}
+
+#right{
+    align-self: flex-start;
+    color: #333;
+    margin-left: 4rem;
+}
+
+.input{
+   font-size: 18px;
+   border-radius: 5px;
+   padding: 10px 10px;
+   border: 2px solid rgb(128, 128, 128);
+   color: rgb(20, 19, 19);
+   margin: 0.6em;
+
+}
+
+.input-ll{
+    width: 450px !important;
+}
+
+select{
+    font-size: 13px;
+    background-color: white;
+    padding: 5px;
+    height: 30px ;
+    color: #1c1c21;
+    border: 1px solid #ccd0d5
+}
+
+.ss{
+    display:block;
+    margin: 1% 0;
+    color: rgba(0, 0, 0, 0.836);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input[type="radio"] label{
+   font-weight: bold;
+   color: rgba(112, 109, 112, 0.67) !important;
+   font-size: 18px !important;
+   line-height: 18px;
+   padding: 0 10px 0 3px;
+}
+
+.terms{
+  max-width: 700px;
+}
+
+#sign-up{
+    min-width: 200px;
+    padding: 5px;
+    margin-top: 16px;
+    background-color: #3b5998;
+    color: #EEEEEE;
+    border-radius: 10px;
+    font-weight: 700;
 }
